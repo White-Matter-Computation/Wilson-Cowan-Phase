@@ -1,0 +1,27 @@
+# params.toml
+# Two sets of parameters for Wilson-Cowan
+#TOML cant do Unicore char :/
+
+[set1]
+w_ee = 1.0
+w_ei = 2.0
+w_ie = 1.0
+w_ii = 0.25
+p_e  = -0.05
+p_i  = -0.3
+tau_e  = 1.0
+tau_i  = 0.5
+tau_0  = 0.2
+beta = 20
+
+[set2]
+w_ee = 1.0
+w_ei = 2.0
+w_ie = 1.0
+w_ii = 0.25
+p_e  = -0.05
+p_i  = -0.3
+tau_e  = 1.0
+tau_i  = 0.5
+tau_0  = 1.5
+beta = 20
